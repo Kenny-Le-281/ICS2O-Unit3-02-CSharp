@@ -9,7 +9,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // This function calculates the area of a Trapezoid
+        // This function calculates the volume of a pyramid
         double lengthOfPyramid;
         double widthOfPyramid;
         double heightOfPyramid;
