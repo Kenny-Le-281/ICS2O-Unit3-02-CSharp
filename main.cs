@@ -12,7 +12,7 @@ class Program
         // This function calculates the area of a Trapezoid
         double lengthOfPyramid;
         double widthOfPyramid;
-        double heightOfPrayamid;
+        double heightOfPyramid;
         double volume;
 
         // input
@@ -28,14 +28,14 @@ class Program
         Console.Write("Input the measurement for the width: ");
         widthOfPyramid = Convert.ToDouble(Console.ReadLine());
         Console.Write("Input the measurement for the height: ");
-        heightOfPrayamid = Convert.ToDouble(Console.ReadLine());
+        heightOfPyramid = Convert.ToDouble(Console.ReadLine());
 
         // process
         Console.WriteLine("");
-        volume = (lengthOfPyramid * widthOfPyramid * heightOfPrayamid) / 3;
+        volume = (lengthOfPyramid * widthOfPyramid * heightOfPyramid) / 3;
 
         // output
-        Console.WriteLine("The area of the trapezoid is: " + volume.ToString("0.00") + " " + "cm³.");
+        Console.WriteLine("The volume of the pyramid is: " + volume.ToString("0.00") + " " + "cm³.");
 
         Console.WriteLine("\nDone.");
     }
